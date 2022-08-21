@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "tesla-dark": "#393c41",
+      },
+    },
   },
   plugins: [],
 };
